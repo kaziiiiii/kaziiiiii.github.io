@@ -228,37 +228,37 @@ aside .sidebar .message-count {
 /*                MAIN                  */
 
 main {
-    margin-top: 1.4rem;
-    background: rgb(226, 223, 216);
+  margin-top: 1.4rem;
+  background: rgb(226, 223, 216);
 }
 
 main .date {
-    display: inline-block;
-    background : var(--color-light);
-    border-radius: var(border-radius-1);
-    margin-top: 1rem;
-    padding: 0.5rem 1.6rem;
+  display: inline-block;
+  background: var(--color-light);
+  border-radius: var(border-radius-1);
+  margin-top: 1rem;
+  padding: 0.5rem 1.6rem;
 }
 
 main .date input[type="date"] {
-    background : transparent; 
-    color: var (--color-dark); 
+  background: transparent;
+  color: var (--color-dark);
 }
 
 main .insights {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
 }
 
 main .insights .sales {
-    background: red; 
+  background: red;
 }
 
 main .insights .expenses {
-    background: blue; 
+  background: blue;
 }
 
 main .insights .income {
-    background: rgb(79, 218, 24); 
+  background: rgb(79, 218, 24);
 }
